@@ -10,3 +10,5 @@ p.inst(CNOT(0, 1))
 # run the program on a QVM
 qvm = SyncConnection()
 result = qvm.wavefunction(p)
+
+# pyquil init needed
